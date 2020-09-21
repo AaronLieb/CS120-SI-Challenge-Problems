@@ -1,5 +1,5 @@
 #include <iostream>
-#include <math.h> // imports sqrt function
+#include <math.h> // imports sqrt and pow function,
 using namespace std;
 
 /* Calculate the result of the quadratic formula
@@ -11,6 +11,10 @@ using namespace std;
  *
  * If both solutions exist the program should print them out
  * Otherwise, the program should crash
+ *
+ * The sqrt and pow functions are used as follows:
+ * sqrt(num)
+ * pow(base, exponent)
 */
 
 int main() {
