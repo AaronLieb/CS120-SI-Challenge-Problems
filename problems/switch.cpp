@@ -5,6 +5,9 @@ using namespace std;
 /*
  * You are given the variables 'a' and 'b'
  * switch the values stored in the two variables.
+ * print the values stored in the variables as shown:
+ * a: <value for a>
+ * b: <value for b>
 */
 
 int main() {
