@@ -22,6 +22,7 @@ using namespace std;
  * Include the range on the left and the amount of money paid on the right.
  * All decimals should be rounded to the second decimal place
  * Use constants when appropriate
+ * Use combined assignment operators when possible
  */
 
 int main() {
