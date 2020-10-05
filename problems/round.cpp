@@ -8,7 +8,7 @@ using namespace std;
  *
  * print out the result.
  *
- * Hint: Integers cannot hold decimals. 
+ * Hint: Integers cannot hold decimals.
 */
 
 int main() {
@@ -17,9 +17,14 @@ int main() {
 	cin >> x;
 
 	/* Start your code here */
+	// x = 7.2589
+	// 7.25
+	int y = x * 100; // 725
+	x = y / 100.0;
 
+	cout << x << "\n";
 
 	/* End your code here */
-	
+
 	return 0;
 }

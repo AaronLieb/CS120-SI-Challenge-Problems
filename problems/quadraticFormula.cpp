@@ -27,7 +27,11 @@ int main() {
 	cin >> c;
 
 	/* Start your code here */
+	double x, x1;
 
+	x = ((-1 * b) + (sqrt(b*b - (4*a*c))))/(2*a);
+	x1 = ((-1 * b) - (sqrt(b*b - (4*a*c))))/(2*a);
+	cout << x << "\n" << x1 << "\n";
 
 	/* End your code here */
 
