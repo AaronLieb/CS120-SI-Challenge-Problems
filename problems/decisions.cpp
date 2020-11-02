@@ -74,7 +74,39 @@ int main() {
 
 	/* START CODING HERE */
 
-	
+	if (temperature < 50) { // determine what to wear
+		clothing = "jacket";
+
+	} else if (temperature > 80) {
+		clothing = "tank-top";
+
+	} else {
+		clothing = "t-shirt";
+
+	}
+
+	if (clothing == "t-shirt" && month == "october") { // pink t-shirt
+		clothing = "pink t-shirt";
+
+	}
+
+	if (dayOfTheWeek == "saturday" || dayOfTheWeek == "sunday") { // what to eat
+		food = "eggs";
+
+	} else {
+		food = "cereal";
+
+	}
+
+
+
+
+	// print out statement
+	cout << "It is a " << dayOfTheWeek << " in " << month
+		 << ". It is currently " << temperature 
+		 << " degrees outside. I decided to wear a " 
+		 << clothing << ". For breakfast I ate " 
+		 << food << ".\n";
 
 	/* STOP CODING HERE */
 

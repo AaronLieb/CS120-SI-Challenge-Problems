@@ -74,19 +74,7 @@ int main() {
 	srand(time(0)); // seed the randomness
 	temperature = rand() % 71 + 30;
 
-	int randomNumber = rand() % 3;
-
-	if (randomNumber == 0) {
-		weather = "sunny";
-
-	} else if (randomNumber == 1) {
-		weather = "cloudy";
-
-	} else {
-		weather = "raining";
-
-	}
-
+	weather = ["sunny", "cloudy", "raining"][rand() % 3]
 
 	if (weather == "raining") { // determine what to wear
 		clothing = "rain coat";
@@ -119,6 +107,9 @@ int main() {
 	if (weather == "cloudy") {
 		food += " and soup";
 	}
+
+	food = (condition) ? "eggs" : "cereal";
+
 
 
 	// print out statement
